@@ -67,3 +67,28 @@ body {
     color: white;
     background-color: black;
 }
+
+#options {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font: 500;
+    font-size: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px;
+    gap: 80px;
+}
+
+#option {
+    color: white;
+    background-color: rgb(209, 8, 8);
+    padding: 30px;
+    border-radius: 40px;
+}
+
+#option:hover {
+    background-color: rgb(247, 113, 10);
+    color: rgb(209, 8, 8);
+    
+}
