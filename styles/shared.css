@@ -48,3 +48,28 @@ nav a:hover {
     
 }
 
+footer {
+    background-color: black;
+    padding: 30px;
+     
+  }
+  
+  footer ul{
+      display: flex;
+      justify-content: center;
+      list-style: none;
+  }
+  
+  footer li {
+      width: 80px;
+      height: 80px;
+      margin: 0 50px;
+  }
+  
+  footer img{
+      width: 100%;
+  }
+
+  #instaImg {
+    width: 130px;
+  }
