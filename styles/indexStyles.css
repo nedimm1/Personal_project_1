@@ -1,5 +1,7 @@
 body {
     text-align: center;
+
+    background-color: rgb(59, 50, 49);
 }
 
 #PopularOp {
@@ -17,7 +19,17 @@ body {
     font-family: 'Oswald', sans-serif;
     font: 500;
     color: rgb(247, 113, 10);
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
     
+}
+
+#sectionTitleDiv {
+    display: flex;
+    justify-content: center;
 }
 
 #lowPriceDiv {
