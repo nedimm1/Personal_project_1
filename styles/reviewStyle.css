@@ -1,8 +1,0 @@
-#review {
-    display: flex;
-    flex-direction: row;
-}
-
-#review img{
-    width: 200px;
-}
