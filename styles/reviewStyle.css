@@ -1,0 +1,40 @@
+main img {
+    width: 100px;
+    height: 100px;
+}
+
+main ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+
+main li {
+    display: flex;
+    background-color: rgb(247, 113, 10);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.item-content {
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main h2{
+    font: 500;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+}
+
+main p{
+    font: 500;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+}
