@@ -1,0 +1,25 @@
+body {
+    text-align: left;
+}
+
+#location{
+    display: flex;
+}
+
+#location img{
+   width: 200px;
+}
+
+#location h2{
+    font-family: 'Oswald', sans-serif;
+    font: 500;
+    font-size: 70px;
+    position: absolute;
+    right: 10px;
+    margin-right: 590px;
+    
+}
+
+#toledo {
+    margin-left: 100px;
+}
